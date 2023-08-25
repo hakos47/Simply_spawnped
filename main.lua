@@ -15,7 +15,7 @@ SpawnNPC = function(anim,modelo, x,y,z,h)
         Wait(1)
     end
     
-    crearNPC = CreatePed(5, hash, x,y,Z,h, false, true)
+    crearNPC = CreatePed(5, hash, x,y,z,h, false, true)
     FreezeEntityPosition(crearNPC, true)
     SetEntityInvincible(crearNPC, true)
     SetBlockingOfNonTemporaryEvents(crearNPC, true)
